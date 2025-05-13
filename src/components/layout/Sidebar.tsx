@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { 
   Book, 
   ChartBar, 
-  Graduation, 
+  GraduationCap, 
   List, 
   Settings, 
   Users 
@@ -29,7 +29,7 @@ const navItems = [
   { 
     name: "Classes", 
     path: "/classes", 
-    icon: Graduation 
+    icon: GraduationCap 
   },
   { 
     name: "Reports", 

@@ -4,7 +4,7 @@ import ResultsChart from "@/components/dashboard/ResultsChart";
 import TopPerformers from "@/components/dashboard/TopPerformers";
 import RecentResults from "@/components/dashboard/RecentResults";
 import { useData } from "@/context/DataContext";
-import { Award, Book, Graduation, Users } from "lucide-react";
+import { Award, Book, GraduationCap, Users } from "lucide-react";
 
 const Dashboard = () => {
   const { students, results, getPassFailStats } = useData();
@@ -46,7 +46,7 @@ const Dashboard = () => {
           title="Total Exams"
           value={results.length}
           description="Across all classes"
-          icon={<Graduation className="h-4 w-4" />}
+          icon={<GraduationCap className="h-4 w-4" />}
         />
       </div>
 
